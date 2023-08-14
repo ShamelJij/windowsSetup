@@ -1,0 +1,117 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20230619135526
+Username: DESKTOP-BS5RPQ7\shami
+RunAs User: DESKTOP-BS5RPQ7\shami
+Configuration Name: 
+Machine: DESKTOP-BS5RPQ7 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 3568
+PSVersion: 5.1.19041.3031
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.3031
+BuildVersion: 10.0.19041.3031
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is c:\start\powershell\sessions\y23-m06-d19-h01-min55-sec24-PM.txt
+
+
+C:\start>
+19.06-01:55
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+n
+
+
+C:\start>
+19.06-01:58
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+n
+
+
+C:\start>
+19.06-01:10
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+n
+
+
+C:\start>
+19.06-01:11
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+n
+
+
+C:\start>
+19.06-01:18
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+govim
+main
+C:\Users\shami\AppData\Local\nvim>
+19.06-01:18>
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+pushit
+
+[main 7ce4030] last changes
+ 4 files changed, 62 insertions(+), 52 deletions(-)
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (11/11), 1.38 KiB | 1.38 MiB/s, done.
+Total 11 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), completed with 6 local objects.
+To https://github.com/ShamelJij/neovimLuaConfig.git
+   8f4dcd9..7ce4030  main -> main
+main
+C:\Users\shami\AppData\Local\nvim>
+19.06-01:18>
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+n
+
+main
+C:\Users\shami\AppData\Local\nvim>
+19.06-01:18>

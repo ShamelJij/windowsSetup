@@ -1,0 +1,193 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20230615140033
+Username: DESKTOP-BS5RPQ7\shami
+RunAs User: DESKTOP-BS5RPQ7\shami
+Configuration Name: 
+Machine: DESKTOP-BS5RPQ7 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 10584
+PSVersion: 5.1.19041.3031
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.3031
+BuildVersion: 10.0.19041.3031
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is c:\start\powershell\sessions\y23-m06-d15-h02-min00-PM.txt
+
+
+C:\start>
+15.06-02:00
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:34 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+. $PROFILE
+new-alias : The alias is not allowed, because an alias with the name '..' already exists.
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:1 char:1
++ new-alias .. cd..
++ ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (..:String) [New-Alias], SessionStateException
+    + FullyQualifiedErrorId : AliasAlreadyExists,Microsoft.PowerShell.Commands.NewAliasCommand
+new-alias : The alias is not allowed, because an alias with the name '..' already exists.
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:1 char:1
++ new-alias .. cd..
++ ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (..:String) [New-Alias], SessionStateException
+    + FullyQualifiedErrorId : AliasAlreadyExists,Microsoft.PowerShell.Commands.NewAliasCommand
+
+new-alias : The alias is not allowed, because an alias with the name 'dd' already exists.
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:2 char:1
++ new-alias dd cd
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (dd:String) [New-Alias], SessionStateException
+    + FullyQualifiedErrorId : AliasAlreadyExists,Microsoft.PowerShell.Commands.NewAliasCommand
+new-alias : The alias is not allowed, because an alias with the name 'dd' already exists.
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:2 char:1
++ new-alias dd cd
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (dd:String) [New-Alias], SessionStateException
+    + FullyQualifiedErrorId : AliasAlreadyExists,Microsoft.PowerShell.Commands.NewAliasCommand
+
+new-alias : The alias is not allowed, because an alias with the name 'sss' already exists.
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:3 char:1
++ new-alias sss ex
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (sss:String) [New-Alias], SessionStateException
+    + FullyQualifiedErrorId : AliasAlreadyExists,Microsoft.PowerShell.Commands.NewAliasCommand
+new-alias : The alias is not allowed, because an alias with the name 'sss' already exists.
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:3 char:1
++ new-alias sss ex
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (sss:String) [New-Alias], SessionStateException
+    + FullyQualifiedErrorId : AliasAlreadyExists,Microsoft.PowerShell.Commands.NewAliasCommand
+
+new-alias : The alias is not allowed, because an alias with the name 'cll' already exists.
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:4 char:1
++ new-alias cll cls
++ ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (cll:String) [New-Alias], SessionStateException
+    + FullyQualifiedErrorId : AliasAlreadyExists,Microsoft.PowerShell.Commands.NewAliasCommand
+new-alias : The alias is not allowed, because an alias with the name 'cll' already exists.
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:4 char:1
++ new-alias cll cls
++ ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (cll:String) [New-Alias], SessionStateException
+    + FullyQualifiedErrorId : AliasAlreadyExists,Microsoft.PowerShell.Commands.NewAliasCommand
+
+new-alias : The alias is not allowed, because an alias with the name 'll' already exists.
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:5 char:1
++ new-alias ll ls
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (ll:String) [New-Alias], SessionStateException
+    + FullyQualifiedErrorId : AliasAlreadyExists,Microsoft.PowerShell.Commands.NewAliasCommand
+new-alias : The alias is not allowed, because an alias with the name 'll' already exists.
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:5 char:1
++ new-alias ll ls
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (ll:String) [New-Alias], SessionStateException
+    + FullyQualifiedErrorId : AliasAlreadyExists,Microsoft.PowerShell.Commands.NewAliasCommand
+
+Transcript started, output file is c:\start\powershell\sessions\y23-m06-d15-h02-min01-PM.txt
+
+
+C:\start>
+15.06-02:01
+
+C:\start>
+15.06-02:01
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:34 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ ls $env
+
+
+    Directory: C:\start
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/15/2023   1:15 PM                [0m  powershell[0m
+
+
+
+C:\start>
+15.06-01:36
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:34 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ ls $env:
+At line:1 char:5
++  ls $env:
++     ~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+At line:1 char:5
++  ls $env:
++     ~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : InvalidVariableReferenceWithDrive
+
+
+C:\start>
+15.06-01:36
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:34 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+echo $env:USERNAME
+shami
+
+C:\start>
+15.06-01:38
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:34 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+$env:USERPROFILE
+C:\Users\shami
+
+C:\start>
+15.06-01:39
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:34 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+cd $env:userprofile\Downloads\
+
+C:\Users\shami\Downloads>
+15.06-01:40
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:34 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+gostart
+
+C:\start>
+15.06-01:40

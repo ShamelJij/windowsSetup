@@ -1,0 +1,125 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20230620103848
+Username: DESKTOP-BS5RPQ7\shami
+RunAs User: DESKTOP-BS5RPQ7\shami
+Configuration Name: 
+Machine: DESKTOP-BS5RPQ7 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7328
+PSVersion: 5.1.19041.3031
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.3031
+BuildVersion: 10.0.19041.3031
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is c:\start\powershell\sessions\y23-m06-d20-h10-min38-sec46-AM.txt
+
+
+C:\start>
+20.06-10:38
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:50 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+gohistory
+
+
+C:\start>
+20.06-10:39
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:50 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+govim
+
+C:\Users\shami\AppData\Local\nvim>
+20.06-10:39>
+	git config --global --add safe.directory C:/Users/shami/AppData/Local/nvim
+git status
+fatal: detected dubious ownership in repository at 'C:/Users/shami/AppData/Local/nvim'
+'C:/Users/shami/AppData/Local/nvim/.git' is owned by:
+        'S-1-5-32-544'
+but the current user is:
+        'S-1-5-21-2903804860-1923718909-4093951108-1001'
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory C:/Users/shami/AppData/Local/nvim
+
+C:\Users\shami\AppData\Local\nvim>
+20.06-10:39>
+	git config --global --add safe.directory C:/Users/shami/AppData/Local/nvim
+git
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+C:\Users\shami\AppData\Local\nvim>
+20.06-10:39>
+	git config --global --add safe.directory C:/Users/shami/AppData/Local/nvim
+git status
+fatal: detected dubious ownership in repository at 'C:/Users/shami/AppData/Local/nvim'
+'C:/Users/shami/AppData/Local/nvim/.git' is owned by:
+        'S-1-5-32-544'
+but the current user is:
+        'S-1-5-21-2903804860-1923718909-4093951108-1001'
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory C:/Users/shami/AppData/Local/nvim
+
+C:\Users\shami\AppData\Local\nvim>
+20.06-10:39>
+	git config --global --add safe.directory C:/Users/shami/AppData/Local/nvim
+git config --global --add safe.directory C:\users\shami\AppData\Local\nvim\
+
+
+C:\Users\shami\AppData\Local\nvim>
+20.06-10:40>
+	git config --global --add safe.directory C:/Users/shami/AppData/Local/nvim
+git status
+fatal: detected dubious ownership in repository at 'C:/Users/shami/AppData/Local/nvim'
+'C:/Users/shami/AppData/Local/nvim/.git' is owned by:
+        'S-1-5-32-544'
+but the current user is:
+        'S-1-5-21-2903804860-1923718909-4093951108-1001'
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory C:/Users/shami/AppData/Local/nvim
+
+C:\Users\shami\AppData\Local\nvim>
+20.06-10:40>
+	git config --global --add safe.directory C:/Users/shami/AppData/Local/nvim
+git config --global --add safe.directory C:\users\shami\AppData\Local\nvim
+
+
+C:\Users\shami\AppData\Local\nvim>
+20.06-10:41>
+	git config --global --add safe.directory C:/Users/shami/AppData/Local/nvim
+git status
+
+
+C:\Users\shami\AppData\Local\nvim>
+20.06-10:41>

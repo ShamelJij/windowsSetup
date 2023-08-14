@@ -1,0 +1,65 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20230616125719
+Username: DESKTOP-BS5RPQ7\shami
+RunAs User: DESKTOP-BS5RPQ7\shami
+Configuration Name: 
+Machine: DESKTOP-BS5RPQ7 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 6944
+PSVersion: 5.1.19041.3031
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.3031
+BuildVersion: 10.0.19041.3031
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is c:\start\powershell\sessions\y23-m06-d16-h12-min57-PM.txt
+
+
+C:\start>
+16.06-12:57
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:34 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+nvim .
+
+
+C:\start>
+16.06-12:57
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:34 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+nvim .
+
+
+C:\start>
+16.06-01:00
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:34 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+git clone https://github.com/ShamelJij/neovimLuaConfig.git C:\Users\shami\AppData\Local\nvim
+Cloning into 'C:\Users\shami\AppData\Local\nvim'...
+remote: Enumerating objects: 64, done.
+remote: Counting objects: 100% (64/64), done.
+remote: Compressing objects: 100% (41/41), done.
+remote: Total 64 (delta 18), reused 61 (delta 15), pack-reused 0Receiving objects:  39% (25/64)
+Receiving objects: 100% (64/64), 19.97 KiB | 3.33 MiB/s, done.
+Resolving deltas: 100% (18/18), done.
+
+C:\start>
+16.06-01:02

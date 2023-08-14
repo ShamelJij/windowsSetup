@@ -1,0 +1,99 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20230615140441
+Username: DESKTOP-BS5RPQ7\shami
+RunAs User: DESKTOP-BS5RPQ7\shami
+Configuration Name: 
+Machine: DESKTOP-BS5RPQ7 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 10000
+PSVersion: 5.1.19041.3031
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.3031
+BuildVersion: 10.0.19041.3031
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is c:\start\powershell\sessions\y23-m06-d15-h02-min04-PM.txt
+
+
+C:\Users\shami>
+15.06-02:04
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:34 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ls
+
+
+    Directory: C:\Users\shami
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----         6/1/2023  12:55 PM                [0m  .dotnet[0m
+d-----        6/15/2023  12:24 PM                [0m  .librarymanager[0m
+d-----         6/1/2023  12:31 PM                [0m  .templateengine[0m
+d-----         6/1/2023  12:51 PM                [0m  .VirtualBox[0m
+d-r---         6/1/2023  12:11 PM                [0m  3D Objects[0m
+d-r---         6/1/2023  12:11 PM                [38;2;0;251;255m﯉  Contacts[0m
+d-r---         6/6/2023  10:09 AM                [38;2;0;251;255mﲾ  Desktop[0m
+d-r---        6/15/2023   1:13 PM                [38;2;0;191;255m  Documents[0m
+d-r---         6/6/2023   8:56 AM                [38;2;211;211;211m  Downloads[0m
+d-r---         6/1/2023  12:11 PM                [38;2;247;215;44mﮛ  Favorites[0m
+d-r---         6/1/2023  12:11 PM                [38;2;255;20;60m  Links[0m
+d-r---         6/1/2023  12:11 PM                [38;2;219;112;147m  Music[0m
+dar--l        6/15/2023   1:32 PM                [38;2;211;211;211m  OneDrive[0m
+d-r---         6/1/2023  12:12 PM                [38;2;154;205;50m  Pictures[0m
+d-r---         6/1/2023  12:11 PM                [0m  Saved Games[0m
+d-r---         6/1/2023  12:12 PM                [0m  Searches[0m
+d-----        6/15/2023  12:23 PM                [0m  source[0m
+d-r---         6/1/2023  12:44 PM                [38;2;255;165;0m  Videos[0m
+-a----        6/15/2023  12:18 PM             56 [38;2;255;69;0m  .gitconfig[0m
+-a----        6/15/2023   1:20 PM             20 [0m  .lesshst[0m
+
+
+
+C:\Users\shami>
+15.06-02:04
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:34 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+winget search code
+
+
+C:\Users\shami>
+15.06-02:12
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:34 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+winget search vscode
+
+
+C:\Users\shami>
+15.06-02:13
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:34 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+winget install microsoft.visualstudiocode
+
+
+C:\Users\shami>
+15.06-02:15

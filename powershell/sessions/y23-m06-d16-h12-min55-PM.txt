@@ -1,0 +1,77 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20230616125502
+Username: DESKTOP-BS5RPQ7\shami
+RunAs User: DESKTOP-BS5RPQ7\shami
+Configuration Name: 
+Machine: DESKTOP-BS5RPQ7 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 1328
+PSVersion: 5.1.19041.3031
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.3031
+BuildVersion: 10.0.19041.3031
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is c:\start\powershell\sessions\y23-m06-d16-h12-min55-PM.txt
+
+
+C:\start>
+16.06-12:55
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:67 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+DBConnection -server 'root@localhost:3306' -database 'fortbildung' -dbuser 'root' -dbpass '123123' -Query 'show databases;'
+Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while 
+establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name 
+is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 
+- Connection string is not valid)"
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:37 char:5
++     [void]$dataAdapter.fill($dt)
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : SqlException
+Exception calling "Fill" with "1" argument(s): "A network-related or instance-specific error occurred while establishing a connection to SQL
+Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow
+remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)"
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:37 char:5
++     [void]$dataAdapter.fill($dt)
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : SqlException
+
+
+C:\start>
+16.06-12:57
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:67 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Import-Module sqlserver
+Import-Module : The specified module 'sqlserver' was not loaded because no valid module file was found in any module 
+directory.
+At line:1 char:1
++ Import-Module sqlserver
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (sqlserver:String) [Import-Module], FileNotFoundException
+    + FullyQualifiedErrorId : Modules_ModuleNotFound,Microsoft.PowerShell.Commands.ImportModuleCommand
+Import-Module : The specified module 'sqlserver' was not loaded because no valid module file was found in any module directory.
+At line:1 char:1
++ Import-Module sqlserver
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (sqlserver:String) [Import-Module], FileNotFoundException
+    + FullyQualifiedErrorId : Modules_ModuleNotFound,Microsoft.PowerShell.Commands.ImportModuleCommand
+
+
+C:\start>
+16.06-01:02

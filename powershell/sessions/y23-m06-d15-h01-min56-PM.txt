@@ -1,0 +1,274 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20230615135624
+Username: DESKTOP-BS5RPQ7\shami
+RunAs User: DESKTOP-BS5RPQ7\shami
+Configuration Name: 
+Machine: DESKTOP-BS5RPQ7 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 2296
+PSVersion: 5.1.19041.3031
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.3031
+BuildVersion: 10.0.19041.3031
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is c:\start\powershell\sessions\y23-m06-d15-h01-min56-PM.txt
+
+
+C:\start>
+15.06-01:56
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:34 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ls
+
+
+    Directory: C:\start
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/15/2023   1:15 PM                [0m  powershell[0m
+
+
+
+C:\start>
+15.06-01:56
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:34 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ls
+
+
+    Directory: C:\start
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/15/2023   1:15 PM                [0m  powershell[0m
+
+
+
+C:\start>
+15.06-01:56
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:34 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ls
+
+
+    Directory: C:\start
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/15/2023   1:15 PM                [0m  powershell[0m
+
+
+
+C:\start>
+15.06-01:56
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:34 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ls
+
+
+    Directory: C:\start
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/15/2023   1:15 PM                [0m  powershell[0m
+
+
+
+C:\start>
+15.06-01:56
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:34 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ls
+
+
+    Directory: C:\start
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/15/2023   1:15 PM                [0m  powershell[0m
+
+
+
+C:\start>
+15.06-01:56
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:34 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ls
+
+
+    Directory: C:\start
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/15/2023   1:15 PM                [0m  powershell[0m
+
+
+
+C:\start>
+15.06-01:56
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:34 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ls
+
+
+    Directory: C:\start
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/15/2023   1:15 PM                [0m  powershell[0m
+
+
+
+C:\start>
+15.06-01:56
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:34 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ls
+
+
+    Directory: C:\start
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/15/2023   1:15 PM                [0m  powershell[0m
+
+
+
+C:\start>
+15.06-01:56
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:34 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ls
+
+
+    Directory: C:\start
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/15/2023   1:15 PM                [0m  powershell[0m
+
+
+
+C:\start>
+15.06-01:56
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:34 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ls
+
+
+    Directory: C:\start
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/15/2023   1:15 PM                [0m  powershell[0m
+
+
+
+C:\start>
+15.06-01:56
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:34 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+cd..
+
+C:\>
+15.06-01:56
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:34 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ls
+
+
+    Directory: C:\
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----         6/1/2023   9:55 AM                [0m  Intel[0m
+d-----         6/1/2023  12:28 PM                [0m  Microsoft[0m
+d-----         6/1/2023  11:10 AM                [0m  PerfLogs[0m
+d-r---        6/15/2023   1:41 PM                [0m  Program Files[0m
+d-r---         6/6/2023   8:56 AM                [0m  Program Files (x86)[0m
+d-----        6/15/2023   1:23 PM                [0m  start[0m
+d-----        6/15/2023   2:03 PM                [0m  test[0m
+d-r---         6/1/2023  12:28 PM                [38;2;244;244;244m  Users[0m
+d-----        6/15/2023   1:30 PM                [38;2;0;168;232m  Windows[0m
+-a----        6/15/2023   2:00 PM       42094644 [38;2;218;165;32m  test.zip[0m
+
+
+
+C:\>
+15.06-01:57

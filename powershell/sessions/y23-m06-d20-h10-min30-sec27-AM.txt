@@ -1,0 +1,87 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20230620103030
+Username: DESKTOP-BS5RPQ7\shami
+RunAs User: DESKTOP-BS5RPQ7\shami
+Configuration Name: 
+Machine: DESKTOP-BS5RPQ7 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 1704
+PSVersion: 5.1.19041.3031
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.3031
+BuildVersion: 10.0.19041.3031
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is c:\start\powershell\sessions\y23-m06-d20-h10-min30-sec27-AM.txt
+
+
+C:\start>
+20.06-10:30
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+set-psreadlineoption -PredictionViewStyle ListView
+>> TerminatingError(Set-PSReadLineOption): "A parameter cannot be found that matches parameter name 'PredictionViewStyle'."
+Set-PSReadLineOption : A parameter cannot be found that matches parameter name 'PredictionViewStyle'.
+At line:1 char:22
++ set-psreadlineoption -PredictionViewStyle ListView
++                      ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-PSReadLineOption], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.SetPSReadLineOption
+Set-PSReadLineOption : A parameter cannot be found that matches parameter name 'PredictionViewStyle'.
+At line:1 char:22
++ set-psreadlineoption -PredictionViewStyle ListView
++                      ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-PSReadLineOption], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.SetPSReadLineOption
+
+
+C:\start>
+20.06-10:31
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Install-Module -Name psfzf
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(Install-Module): "Administrator rights are required to install modules in 'C:\Program Files\WindowsPowerShell\Modules'. Log on to the computer with an account that has Administrator rights, and then try again, or install 'C:\Users\shami\Documents\WindowsPowerShell\Modules' by adding "-Scope CurrentUser" to your command. You can also try running the Windows PowerShell session with elevated rights (Run as Administrator)."
+Install-Module : Administrator rights are required to install modules in 'C:\Program Files\WindowsPowerShell\Modules'. 
+Log on to the computer with an account that has Administrator rights, and then try again, or install 
+'C:\Users\shami\Documents\WindowsPowerShell\Modules' by adding "-Scope CurrentUser" to your command. You can also try 
+running the Windows PowerShell session with elevated rights (Run as Administrator).
+At line:1 char:1
++ Install-Module -Name psfzf
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Install-Module], ArgumentException
+    + FullyQualifiedErrorId : InstallModuleNeedsCurrentUserScopeParameterForNonAdminUser,Install-Module
+Install-Module : Administrator rights are required to install modules in 'C:\Program Files\WindowsPowerShell\Modules'. Log on to the
+computer with an account that has Administrator rights, and then try again, or install 'C:\Users\shami\Documents\WindowsPowerShell\Modules'
+by adding "-Scope CurrentUser" to your command. You can also try running the Windows PowerShell session with elevated rights (Run as
+Administrator).
+At line:1 char:1
++ Install-Module -Name psfzf
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Install-Module], ArgumentException
+    + FullyQualifiedErrorId : InstallModuleNeedsCurrentUserScopeParameterForNonAdminUser,Install-Module
+
+
+C:\start>
+20.06-10:33

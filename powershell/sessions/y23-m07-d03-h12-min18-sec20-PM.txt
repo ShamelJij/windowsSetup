@@ -1,0 +1,47 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20230703121826
+Username: DESKTOP-BS5RPQ7\shami
+RunAs User: DESKTOP-BS5RPQ7\shami
+Configuration Name: 
+Machine: DESKTOP-BS5RPQ7 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 9604
+PSVersion: 5.1.19041.3031
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.3031
+BuildVersion: 10.0.19041.3031
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is c:\start\powershell\sessions\y23-m07-d03-h12-min18-sec20-PM.txt
+
+main
+C:\start>
+03.07-12:18>
+PS>goprp
+goprp : The term 'goprp' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ goprp
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (goprp:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+goprp : The term 'goprp' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the
+name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ goprp
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (goprp:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+main
+C:\start>
+03.07-12:18>
+PS>gopro
+
+main
+C:\start>
+03.07-12:21>

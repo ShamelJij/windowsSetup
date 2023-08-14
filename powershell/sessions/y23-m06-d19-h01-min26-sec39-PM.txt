@@ -1,0 +1,60 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20230619132640
+Username: DESKTOP-BS5RPQ7\shami
+RunAs User: DESKTOP-BS5RPQ7\shami
+Configuration Name: 
+Machine: DESKTOP-BS5RPQ7 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 8768
+PSVersion: 5.1.19041.3031
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.3031
+BuildVersion: 10.0.19041.3031
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is c:\start\powershell\sessions\y23-m06-d19-h01-min26-sec39-PM.txt
+
+
+C:\start>
+19.06-01:26
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+choco install packer
+Progress: Downloading packer 1.9.1... 100%
+
+packer v1.9.1 [Approved]
+packer package files install completed. Performing other installation steps.
+The package packer wants to run 'chocolateyInstall.ps1'.
+Note: If you don't run this script, the installation will fail.
+Note: To confirm automatically next time, use '-y' or consider:
+choco feature enable -n allowGlobalConfirmation
+Do you want to run the script?([Y]es/[A]ll - yes to all/[N]o/[P]rint): a
+
+Removing old packer plugins
+Downloading packer 64 bit
+  from 'https://releases.hashicorp.com/packer/1.9.1/packer_1.9.1_windows_amd64.zip'
+Progress: 100% - Completed download of C:\Users\shami\AppData\Local\Temp\chocolatey\packer\1.9.1\packer_1.9.1_windows_am
+d64.zip (21.68 MB).
+Download of packer_1.9.1_windows_amd64.zip (21.68 MB) completed.
+Hashes match.
+Extracting C:\Users\shami\AppData\Local\Temp\chocolatey\packer\1.9.1\packer_1.9.1_windows_amd64.zip to C:\ProgramData\ch
+ocolatey\lib\packer\tools...
+C:\ProgramData\chocolatey\lib\packer\tools
+ ShimGen has successfully created a shim for packer.exe
+ The install of packer was successful.
+  Software installed to 'C:\ProgramData\chocolatey\lib\packer\tools'
+
+Chocolatey installed 1/1 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+
+C:\start>
+19.06-01:27

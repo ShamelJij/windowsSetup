@@ -1,0 +1,65 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20230619131532
+Username: DESKTOP-BS5RPQ7\shami
+RunAs User: DESKTOP-BS5RPQ7\shami
+Configuration Name: 
+Machine: DESKTOP-BS5RPQ7 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 8036
+PSVersion: 5.1.19041.3031
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.3031
+BuildVersion: 10.0.19041.3031
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is c:\start\powershell\sessions\y23-m06-d19-h01-min15-sec30-PM.txt
+
+
+C:\start>
+19.06-01:15
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  python -m pip uninstall neovim pynvim
+WARNING: Skipping neovim as it is not installed.
+Found existing installation: pynvim 0.4.3
+Uninstalling pynvim-0.4.3:
+  Would remove:
+    c:\users\shami\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\p
+ython311\site-packages\neovim\*
+    c:\users\shami\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\p
+ython311\site-packages\pynvim-0.4.3.dist-info\*
+    c:\users\shami\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qbz5n2kfra8p0\localcache\local-packages\p
+ython311\site-packages\pynvim\*
+Proceed (Y/n)? y
+  Successfully uninstalled pynvim-0.4.3
+
+C:\start>
+19.06-01:15
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  python -m pip install --user --upgrade pynvim
+Collecting pynvim
+  Using cached pynvim-0.4.3-py3-none-any.whl
+Requirement already satisfied: msgpack>=0.5.0 in c:\users\shami\appdata\local\packages\pythonsoftwarefoundation.python.3
+.11_qbz5n2kfra8p0\localcache\local-packages\python311\site-packages (from pynvim) (1.0.5)
+Requirement already satisfied: greenlet in c:\users\shami\appdata\local\packages\pythonsoftwarefoundation.python.3.11_qb
+z5n2kfra8p0\localcache\local-packages\python311\site-packages (from pynvim) (2.0.2)
+Installing collected packages: pynvim
+Successfully installed pynvim-0.4.3
+
+C:\start>
+19.06-01:16

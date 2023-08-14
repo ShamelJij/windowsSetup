@@ -1,0 +1,322 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20230619160637
+Username: DESKTOP-BS5RPQ7\shami
+RunAs User: DESKTOP-BS5RPQ7\shami
+Configuration Name: 
+Machine: DESKTOP-BS5RPQ7 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 8452
+PSVersion: 5.1.19041.3031
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.3031
+BuildVersion: 10.0.19041.3031
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is c:\start\powershell\sessions\y23-m06-d19-h04-min06-sec35-PM.txt
+
+
+C:\start>
+19.06-04:06
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ld
+C:\Users\shami\scoop\apps\gcc\current\bin\ld.exe: no input files
+
+C:\start>
+19.06-04:12
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ls
+
+
+    Directory: C:\start
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/15/2023   2:17 PM                [38;2;135;206;175m  .config[0m
+d-----        6/19/2023  12:41 PM                [0m  AutoHotKey[0m
+d-----        6/19/2023  12:41 PM                [0m  imports[0m
+d-----        6/15/2023   1:15 PM                [0m  powershell[0m
+
+
+
+C:\start>
+19.06-04:12
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ls
+
+
+    Directory: C:\start
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/15/2023   2:17 PM                [38;2;135;206;175m  .config[0m
+d-----        6/19/2023  12:41 PM                [0m  AutoHotKey[0m
+d-----        6/19/2023  12:41 PM                [0m  imports[0m
+d-----        6/15/2023   1:15 PM                [0m  powershell[0m
+
+
+
+C:\start>
+19.06-04:12
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ls
+
+
+    Directory: C:\start
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/15/2023   2:17 PM                [38;2;135;206;175m  .config[0m
+d-----        6/19/2023  12:41 PM                [0m  AutoHotKey[0m
+d-----        6/19/2023  12:41 PM                [0m  imports[0m
+d-----        6/15/2023   1:15 PM                [0m  powershell[0m
+
+
+
+C:\start>
+19.06-04:14
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+git clone https://github.com/Dolibarr/dolibarr.git ./Dolibarr
+
+
+C:\start>
+19.06-04:32
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ls
+
+
+    Directory: C:\start
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/15/2023   2:17 PM                [38;2;135;206;175m  .config[0m
+d-----        6/19/2023  12:41 PM                [0m  AutoHotKey[0m
+d-----        6/19/2023   4:32 PM                [0m  Dolibarr[0m
+d-----        6/19/2023  12:41 PM                [0m  imports[0m
+d-----        6/15/2023   1:15 PM                [0m  powershell[0m
+
+
+
+C:\start>
+19.06-04:39
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+cd .\Dolibarr\
+develop
+C:\start\Dolibarr>
+19.06-04:39>
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ls
+
+
+    Directory: C:\start\Dolibarr
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/19/2023   4:32 PM                [38;2;192;192;192m  .github[0m
+d-----        6/19/2023   4:32 PM                [0m  .idea[0m
+d-----        6/19/2023   4:32 PM                [0m  .tx[0m
+d-----        6/19/2023   4:32 PM                [0m  build[0m
+d-----        6/19/2023   4:32 PM                [0m  dev[0m
+d-----        6/19/2023   4:32 PM                [0m  doc[0m
+d-----        6/19/2023   4:32 PM                [0m  htdocs[0m
+d-----        6/19/2023   4:32 PM                [0m  scripts[0m
+d-----        6/19/2023   4:32 PM                [0m  test[0m
+-a----        6/19/2023   4:32 PM            249 [38;2;255;99;71m  .codeclimate.yml[0m
+-a----        6/19/2023   4:32 PM            463 [0m  .editorconfig[0m
+-a----        6/19/2023   4:32 PM           1480 [38;2;255;69;0m  .gitattributes[0m
+-a----        6/19/2023   4:32 PM           1296 [38;2;255;69;0m  .gitignore[0m
+-a----        6/19/2023   4:32 PM            258 [0m  .gitmessage[0m
+-a----        6/19/2023   4:32 PM           6877 [0m  .mailmap[0m
+-a----        6/19/2023   4:32 PM           8149 [38;2;255;99;71m  .scrutinizer.yml[0m
+-a----        6/19/2023   4:32 PM            211 [38;2;255;99;71m  .stickler.yml[0m
+-a----        6/19/2023   4:32 PM          22702 [38;2;255;228;181m  .travis.yml[0m
+-a----        6/19/2023   4:32 PM         541149 [38;2;152;251;152m  ChangeLog[0m
+-a----        6/19/2023   4:32 PM           1878 [0m  composer.json.disabled[0m
+-a----        6/19/2023   4:32 PM          35825 [0m  COPYING[0m
+-a----        6/19/2023   4:32 PM           7073 [0m  COPYRIGHT[0m
+-a----        6/19/2023   4:32 PM           1400 [0m  DCO[0m
+-a----        6/19/2023   4:32 PM            741 [38;2;240;230;140m  nightwatch.conf.js[0m
+-a----        6/19/2023   4:32 PM          12220 [0m  phpstan.neon[0m
+-a----        6/19/2023   4:32 PM           4841 [38;2;255;99;71m  qodana.yaml[0m
+-a----        6/19/2023   4:32 PM           8016 [38;2;0;191;255m  README-FR.md[0m
+-a----        6/19/2023   4:32 PM          10282 [38;2;0;255;255m  README.md[0m
+-a----        6/19/2023   4:32 PM             95 [38;2;0;206;209m  robots.txt[0m
+-a----        6/19/2023   4:32 PM           7145 [38;2;0;191;255m  SECURITY.md[0m
+
+
+develop
+C:\start\Dolibarr>
+19.06-04:39>
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+n
+d-----        6/19/2023   4:32 PM                  .tx
+d-----        6/19/2023   4:32 PM                  build
+d-----        6/19/2023   4:32 PM                  dev
+d-----        6/19/2023   4:32 PM                  doc
+d-----        6/19/2023   4:32 PM                  htdocs
+d-----        6/19/2023   4:32 PM                  scripts
+d-----        6/19/2023   4:32 PM                  test
+-a----        6/19/2023   4:32 PM            249   .codeclimate.yml
+-a----        6/19/2023   4:32 PM            463   .editorconfig
+-a----        6/19/2023   4:32 PM           1480   .gitattributes
+-a----        6/19/2023   4:32 PM           1296   .gitignore
+-a----        6/19/2023   4:32 PM            258   .gitmessage
+-a----        6/19/2023   4:32 PM           6877   .mailmap
+-a----        6/19/2023   4:32 PM           8149   .scrutinizer.yml
+-a----        6/19/2023   4:32 PM            211   .stickler.yml
+-a----        6/19/2023   4:32 PM          22702   .travis.yml
+-a----        6/19/2023   4:32 PM         541149   ChangeLog
+-a----        6/19/2023   4:32 PM           1878   composer.json.disabled
+-a----        6/19/2023   4:32 PM          35825   COPYING
+-a----        6/19/2023   4:32 PM           7073   COPYRIGHT
+-a----        6/19/2023   4:32 PM           1400   DCO
+-a----        6/19/2023   4:32 PM            741   nightwatch.conf.js
+-a----        6/19/2023   4:32 PM          12220   phpstan.neon
+-a----        6/19/2023   4:32 PM           4841   qodana.yaml
+-a----        6/19/2023   4:32 PM           8016   README-FR.md
+-a----        6/19/2023   4:32 PM          10282   README.md
+-a----        6/19/2023   4:32 PM             95   robots.txt
+-a----        6/19/2023   4:32 PM           7145   SECURITY.md
+
+
+develop
+C:\start\Dolibarr>19.06-04:39>PS>n
+develop
+C:\start\Dolibarr>
+20.06-09:36>
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+n
+
+develop
+C:\start\Dolibarr>
+20.06-09:36>
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+php
+php : The term 'php' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ php
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (php:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+php : The term 'php' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling
+of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ php
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (php:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+develop
+C:\start\Dolibarr>
+20.06-09:36>
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+winget search php
+
+develop
+C:\start\Dolibarr>
+20.06-09:37>
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+winget search docker
+
+develop
+C:\start\Dolibarr>
+20.06-09:38>
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+winget install docker.dockerdesktop
+
+develop
+C:\start\Dolibarr>
+20.06-09:48>

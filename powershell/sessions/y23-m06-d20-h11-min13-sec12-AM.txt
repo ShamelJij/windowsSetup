@@ -1,0 +1,771 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20230620111314
+Username: DESKTOP-BS5RPQ7\shami
+RunAs User: DESKTOP-BS5RPQ7\shami
+Configuration Name: 
+Machine: DESKTOP-BS5RPQ7 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 14092
+PSVersion: 5.1.19041.3031
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.3031
+BuildVersion: 10.0.19041.3031
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is c:\start\powershell\sessions\y23-m06-d20-h11-min13-sec12-AM.txt
+
+
+C:\start>
+20.06-11:13
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+github
+
+C:\start>
+20.06-11:13
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+git clone -b ial https://github.com/ShamelJij/AutoHotKey.git "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup"
+Cloning into '%AppData%\Microsoft\Windows\Start Menu\Programs\Startup'...
+remote: Enumerating objects: 70, done.
+remote: Counting objects: 100% (70/70), done.
+remote: Compressing objects: 100% (51/51), done.
+remote: Total 70 (delta 22), reused 47 (delta 10), pack-reused 0
+Receiving objects: 100% (70/70), 6.60 MiB | 547.00 KiB/s, done.
+Resolving deltas: 100% (22/22), done.
+
+C:\start>
+20.06-10:29
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+cd "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup"
+ial
+C:\start\%AppData%\Microsoft\Windows\Start Menu\Programs\Startup>
+20.06-10:33>
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ls
+
+
+    Directory: C:\start\%AppData%\Microsoft\Windows\Start Menu\Programs\Startup
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/20/2023  10:29 AM                [0m  startahk[0m
+-a----        6/20/2023  10:29 AM             35 [38;2;255;69;0m  .gitIgnore[0m
+-a----        6/20/2023  10:29 AM           3979 [0m  start.ahk[0m
+
+
+ial
+C:\start\%AppData%\Microsoft\Windows\Start Menu\Programs\Startup>
+20.06-10:33>
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+cd start
+cd : Cannot find path 'C:\start\%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\start' because it does not 
+exist.
+At line:1 char:1
++ cd start
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\start\%AppDa...s\Startup\start:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : Cannot find path 'C:\start\%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\start' because it does not exist.
+At line:1 char:1
++ cd start
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\start\%AppDa...s\Startup\start:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+
+Resolve-Path : Cannot find path 'C:\start\%AppData%\Microsoft\Windows\Start Menu\Programs\Startup' because it does not 
+exist.
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:74 char:31
++     $CmdPromptCurrentFolder = Resolve-Path .
++                               ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\start\%AppDa...rograms\Startup:String) [Resolve-Path], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.ResolvePathCommand
+>
+20.06-10:34
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+gostart
+
+C:\start>
+20.06-10:34
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ls
+
+
+    Directory: C:\start
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/15/2023   2:17 PM                [38;2;135;206;175m  .config[0m
+d-----        6/19/2023  12:41 PM                [0m  AutoHotKey[0m
+d-----        6/20/2023  10:39 AM                [0m  Contain[0m
+d-----        6/19/2023   4:32 PM                [0m  Dolibarr[0m
+d-----        6/19/2023  12:41 PM                [0m  imports[0m
+d-----        6/15/2023   1:15 PM                [0m  powershell[0m
+
+
+
+C:\start>
+20.06-10:34
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+cd "%AppData%Microsoft\Windows\Start Menu\Programs\Startup"
+cd : Cannot find path 'C:\start\%AppData%Microsoft\Windows\Start Menu\Programs\Startup' because it does not exist.
+At line:1 char:1
++ cd "%AppData%Microsoft\Windows\Start Menu\Programs\Startup"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\start\%AppDa...rograms\Startup:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : Cannot find path 'C:\start\%AppData%Microsoft\Windows\Start Menu\Programs\Startup' because it does not exist.
+At line:1 char:1
++ cd "%AppData%Microsoft\Windows\Start Menu\Programs\Startup"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\start\%AppDa...rograms\Startup:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+
+C:\start>
+20.06-10:35
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+cd "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup"
+cd : Cannot find path 'C:\start\%AppData%\Microsoft\Windows\Start Menu\Programs\Startup' because it does not exist.
+At line:1 char:1
++ cd "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\start\%AppDa...rograms\Startup:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : Cannot find path 'C:\start\%AppData%\Microsoft\Windows\Start Menu\Programs\Startup' because it does not exist.
+At line:1 char:1
++ cd "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\start\%AppDa...rograms\Startup:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+
+C:\start>
+20.06-10:35
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+cd "$AppData\Microsoft\Windows\Start Menu\Programs\Startup"
+cd : Cannot find path 'C:\Microsoft\Windows\Start Menu\Programs\Startup' because it does not exist.
+At line:1 char:1
++ cd "$AppData\Microsoft\Windows\Start Menu\Programs\Startup"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Microsoft\Wi...rograms\Startup:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : Cannot find path 'C:\Microsoft\Windows\Start Menu\Programs\Startup' because it does not exist.
+At line:1 char:1
++ cd "$AppData\Microsoft\Windows\Start Menu\Programs\Startup"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Microsoft\Wi...rograms\Startup:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+
+C:\start>
+20.06-10:35
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+cd $env:APPDATA
+
+C:\Users\shami\AppData\Roaming>
+20.06-10:35
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+gostart
+
+C:\start>
+20.06-10:35
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+cd "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup"
+
+C:\Users\shami\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup>
+20.06-10:36
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+gostart
+
+C:\start>
+20.06-10:36
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+git clone -b ial https://github.com/ShamelJij/AutoHotKey.git "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup"
+
+
+C:\start>
+20.06-10:37
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+git clone -b ial https://github.com/ShamelJij/AutoHotKey.git "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup\"
+
+
+C:\start>
+20.06-10:37
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+git clone -b ial https://github.com/ShamelJij/AutoHotKey.git "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup"
+
+
+C:\start>
+20.06-10:37
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+git clone -b ial https://github.com/ShamelJij/AutoHotKey.git "$env:myStart\startApps"
+
+
+C:\start>
+20.06-10:38
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ls
+
+
+    Directory: C:\start
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/15/2023   2:17 PM                [38;2;135;206;175m  .config[0m
+d-----        6/19/2023  12:41 PM                [0m  AutoHotKey[0m
+d-----        6/20/2023  10:39 AM                [0m  Contain[0m
+d-----        6/19/2023   4:32 PM                [0m  Dolibarr[0m
+d-----        6/19/2023  12:41 PM                [0m  imports[0m
+d-----        6/15/2023   1:15 PM                [0m  powershell[0m
+d-----        6/20/2023  10:38 AM                [0m  startApps[0m
+
+
+
+C:\start>
+20.06-10:41
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+rm .\startApps\ -Recurse -Force
+
+C:\start>
+20.06-10:41
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+git clone -b ial https://github.com/ShamelJij/AutoHotKey.git "$env:myStart\startApps"
+
+
+C:\start>
+20.06-10:41
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Move-Item -Path .\startApps\start.ahk .\startApps\startahk\ -Destination "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup"
+>> TerminatingError(Move-Item): "A positional parameter cannot be found that accepts argument '.\startApps\startahk\'."
+Move-Item : A positional parameter cannot be found that accepts argument '.\startApps\startahk\'.
+At line:1 char:1
++ Move-Item -Path .\startApps\start.ahk .\startApps\startahk\ -Destinat ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : A positional parameter cannot be found that accepts argument '.\startApps\startahk\'.
+At line:1 char:1
++ Move-Item -Path .\startApps\start.ahk .\startApps\startahk\ -Destinat ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+
+C:\start>
+20.06-11:05
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Move-Item -Path .\startApps\start.ahk .\startApps\startahk -Destination "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup"
+>> TerminatingError(Move-Item): "A positional parameter cannot be found that accepts argument '.\startApps\startahk'."
+Move-Item : A positional parameter cannot be found that accepts argument '.\startApps\startahk'.
+At line:1 char:1
++ Move-Item -Path .\startApps\start.ahk .\startApps\startahk -Destinati ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : A positional parameter cannot be found that accepts argument '.\startApps\startahk'.
+At line:1 char:1
++ Move-Item -Path .\startApps\start.ahk .\startApps\startahk -Destinati ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+
+C:\start>
+20.06-11:06
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Move-Item -Path @(".\startApps\start.ahk", ".\startApps\startahk") -Destination "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup"
+
+C:\start>
+20.06-11:21
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Move-Item -Path @(".\startApps\start.ahk", ".\startApps\startahk") -Destination "$env:myStart\Startup"
+Move-Item : Cannot find path 'C:\start\startApps\start.ahk' because it does not exist.
+At line:1 char:1
++ Move-Item -Path @(".\startApps\start.ahk", ".\startApps\startahk") -D ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\start\startApps\start.ahk:String) [Move-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : Cannot find path 'C:\start\startApps\start.ahk' because it does not exist.
+At line:1 char:1
++ Move-Item -Path @(".\startApps\start.ahk", ".\startApps\startahk") -D ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\start\startApps\start.ahk:String) [Move-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+Move-Item : Cannot find path 'C:\start\startApps\startahk' because it does not exist.
+At line:1 char:1
++ Move-Item -Path @(".\startApps\start.ahk", ".\startApps\startahk") -D ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\start\startApps\startahk:String) [Move-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : Cannot find path 'C:\start\startApps\startahk' because it does not exist.
+At line:1 char:1
++ Move-Item -Path @(".\startApps\start.ahk", ".\startApps\startahk") -D ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\start\startApps\startahk:String) [Move-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+
+C:\start>
+20.06-11:21
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Move-Item -Path @(".\startApps\start.ahk", ".\startApps\startahk") -Destination "C:\start\startApps\"
+Move-Item : Cannot find path 'C:\start\startApps\start.ahk' because it does not exist.
+At line:1 char:1
++ Move-Item -Path @(".\startApps\start.ahk", ".\startApps\startahk") -D ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\start\startApps\start.ahk:String) [Move-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : Cannot find path 'C:\start\startApps\start.ahk' because it does not exist.
+At line:1 char:1
++ Move-Item -Path @(".\startApps\start.ahk", ".\startApps\startahk") -D ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\start\startApps\start.ahk:String) [Move-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+Move-Item : Cannot find path 'C:\start\startApps\startahk' because it does not exist.
+At line:1 char:1
++ Move-Item -Path @(".\startApps\start.ahk", ".\startApps\startahk") -D ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\start\startApps\startahk:String) [Move-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : Cannot find path 'C:\start\startApps\startahk' because it does not exist.
+At line:1 char:1
++ Move-Item -Path @(".\startApps\start.ahk", ".\startApps\startahk") -D ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\start\startApps\startahk:String) [Move-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+
+C:\start>
+20.06-11:22
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Move-Item -Path @("$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup\start.ahk", "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup\startahk") -Destination "C:\start\startApps\"
+
+C:\start>
+20.06-11:23
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+cd .\startApps\
+ial
+C:\start\startApps>
+20.06-11:23>
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ls
+
+
+    Directory: C:\start\startApps
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/20/2023  10:41 AM                [0m  startahk[0m
+-a----        6/20/2023  10:41 AM             35 [38;2;255;69;0m  .gitIgnore[0m
+-a----        6/20/2023  10:41 AM           3946 [0m  start.ahk[0m
+
+
+ial
+C:\start\startApps>
+20.06-11:23>
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+..
+
+C:\start>
+20.06-11:23
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+copy-Item -Path @(".\startApps\start.ahk", ".\startApps\startahk") -Destination "$env:myStart\Startup"
+copy-Item : Container cannot be copied onto existing leaf item.
+At line:1 char:1
++ copy-Item -Path @(".\startApps\start.ahk", ".\startApps\startahk") -D ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (C:\start\startApps\startahk:String) [Copy-Item], PSArgumentException
+    + FullyQualifiedErrorId : CopyContainerItemToLeafError,Microsoft.PowerShell.Commands.CopyItemCommand
+copy-Item : Container cannot be copied onto existing leaf item.
+At line:1 char:1
++ copy-Item -Path @(".\startApps\start.ahk", ".\startApps\startahk") -D ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (C:\start\startApps\startahk:String) [Copy-Item], PSArgumentException
+    + FullyQualifiedErrorId : CopyContainerItemToLeafError,Microsoft.PowerShell.Commands.CopyItemCommand
+
+
+C:\start>
+20.06-11:23
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+cd .\startApps\
+ial
+C:\start\startApps>
+20.06-11:24>
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ls
+
+
+    Directory: C:\start\startApps
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/20/2023  10:41 AM                [0m  startahk[0m
+-a----        6/20/2023  10:41 AM             35 [38;2;255;69;0m  .gitIgnore[0m
+-a----        6/20/2023  10:41 AM           3946 [0m  start.ahk[0m
+
+
+ial
+C:\start\startApps>
+20.06-11:24>
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+..
+
+C:\start>
+20.06-11:24
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+copy-Item -Path @(".\startApps\start.ahk", ".\startApps\startahk") -Destination "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup"
+
+C:\start>
+20.06-11:25
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+cd "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup"
+
+C:\Users\shami\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup>
+20.06-11:25
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ls
+
+
+    Directory: C:\Users\shami\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/20/2023  11:25 AM                [0m  startahk[0m
+-a----        6/20/2023  10:41 AM           3946 [0m  start.ahk[0m
+
+
+
+C:\Users\shami\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup>
+20.06-11:25
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+gostart
+
+C:\start>
+20.06-11:25
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+n
+
+
+C:\start>
+20.06-11:27
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+cd .\startApps\
+ial
+C:\start\startApps>
+20.06-11:27>
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ls
+
+
+    Directory: C:\start\startApps
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/20/2023  10:41 AM                [0m  startahk[0m
+-a----        6/20/2023  10:41 AM             35 [38;2;255;69;0m  .gitIgnore[0m
+-a----        6/20/2023  11:27 AM           4093 [0m  start.ahk[0m
+
+
+ial
+C:\start\startApps>
+20.06-11:27>
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+git add .\start.ahk
+
+ial
+C:\start\startApps>
+20.06-11:27>
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+git commit -m "added powershell command"
+
+ial
+C:\start\startApps>
+20.06-11:27>
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+git push origin ial
+
+ial
+C:\start\startApps>
+20.06-11:27>

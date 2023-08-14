@@ -1,0 +1,238 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20230620103330
+Username: DESKTOP-BS5RPQ7\shami
+RunAs User: DESKTOP-BS5RPQ7\shami
+Configuration Name: 
+Machine: DESKTOP-BS5RPQ7 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 2092
+PSVersion: 5.1.19041.3031
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.3031
+BuildVersion: 10.0.19041.3031
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is c:\start\powershell\sessions\y23-m06-d20-h10-min33-sec28-AM.txt
+
+
+C:\start>
+20.06-10:33
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Install-Module -Name psfzf
+Untrusted repository
+You are installing the modules from an untrusted repository. If you trust this repository, change its InstallationPolicy value by running the Set-PSRepository cmdlet. Are you sure you want to install the modules from 'PSGallery'?
+&Yes  Yes to &All  &No  No to A&ll  &Suspend
+A
+
+C:\start>
+20.06-10:36
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+set-psreadlineoption -PredictionViewStyle ListView
+>> TerminatingError(Set-PSReadLineOption): "A parameter cannot be found that matches parameter name 'PredictionViewStyle'."
+Set-PSReadLineOption : A parameter cannot be found that matches parameter name 'PredictionViewStyle'.
+At line:1 char:22
++ set-psreadlineoption -PredictionViewStyle ListView
++                      ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-PSReadLineOption], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.SetPSReadLineOption
+Set-PSReadLineOption : A parameter cannot be found that matches parameter name 'PredictionViewStyle'.
+At line:1 char:22
++ set-psreadlineoption -PredictionViewStyle ListView
++                      ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-PSReadLineOption], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.SetPSReadLineOption
+
+
+C:\start>
+20.06-10:36
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Install-Module -Name psreadline
+Untrusted repository
+You are installing the modules from an untrusted repository. If you trust this repository, change its InstallationPolicy value by running the Set-PSRepository cmdlet. Are you sure you want to install the modules from 'PSGallery'?
+&Yes  Yes to &All  &No  No to A&ll  &Suspend
+A
+WARNING: Version '2.0.0' of module 'PSReadline' is already installed at 'C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0'. To install version '2.2.6', run Install-Module and add the -Force parameter, this command will install version '2.2.6' in side-by-side with version '2.0.0'.
+
+C:\start>
+20.06-10:38
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+import-module psreadline
+
+C:\start>
+20.06-10:38
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+set-psreadlineoption -PredictionViewStyle ListView
+>> TerminatingError(Set-PSReadLineOption): "A parameter cannot be found that matches parameter name 'PredictionViewStyle'."
+Set-PSReadLineOption : A parameter cannot be found that matches parameter name 'PredictionViewStyle'.
+At line:1 char:22
++ set-psreadlineoption -PredictionViewStyle ListView
++                      ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-PSReadLineOption], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.SetPSReadLineOption
+Set-PSReadLineOption : A parameter cannot be found that matches parameter name 'PredictionViewStyle'.
+At line:1 char:22
++ set-psreadlineoption -PredictionViewStyle ListView
++                      ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-PSReadLineOption], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.SetPSReadLineOption
+
+
+C:\start>
+20.06-10:38
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Install-Module -Name psreadline -Force
+
+C:\start>
+20.06-10:39
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+import-module psreadline
+>> TerminatingError(Import-Module): "A cmdlet named 'Get-PSReadLineKeyHandler' already exists. Cmdlets must have unique names."
+import-module : A cmdlet named 'Get-PSReadLineKeyHandler' already exists. Cmdlets must have unique names.
+At line:1 char:1
++ import-module psreadline
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotImplemented: (:) [Import-Module], PSNotSupportedException
+    + FullyQualifiedErrorId : NotSupported,Microsoft.PowerShell.Commands.ImportModuleCommand
+import-module : A cmdlet named 'Get-PSReadLineKeyHandler' already exists. Cmdlets must have unique names.
+At line:1 char:1
++ import-module psreadline
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotImplemented: (:) [Import-Module], PSNotSupportedException
+    + FullyQualifiedErrorId : NotSupported,Microsoft.PowerShell.Commands.ImportModuleCommand
+
+
+C:\start>
+20.06-10:40
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+set-psreadlineoption -PredictionViewStyle ListView
+>> TerminatingError(Set-PSReadLineOption): "A parameter cannot be found that matches parameter name 'PredictionViewStyle'."
+Set-PSReadLineOption : A parameter cannot be found that matches parameter name 'PredictionViewStyle'.
+At line:1 char:22
++ set-psreadlineoption -PredictionViewStyle ListView
++                      ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-PSReadLineOption], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.SetPSReadLineOption
+Set-PSReadLineOption : A parameter cannot be found that matches parameter name 'PredictionViewStyle'.
+At line:1 char:22
++ set-psreadlineoption -PredictionViewStyle ListView
++                      ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-PSReadLineOption], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.SetPSReadLineOption
+
+
+C:\start>
+20.06-10:40
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+n
+
+
+C:\start>
+20.06-10:41
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ls
+
+
+    Directory: C:\start
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/15/2023   2:17 PM                [38;2;135;206;175m  .config[0m
+d-----        6/19/2023  12:41 PM                [0m  AutoHotKey[0m
+d-----        6/20/2023  10:39 AM                [0m  Contain[0m
+d-----        6/19/2023   4:32 PM                [0m  Dolibarr[0m
+d-----        6/19/2023  12:41 PM                [0m  imports[0m
+d-----        6/15/2023   1:15 PM                [0m  powershell[0m
+d-----        6/20/2023  11:10 AM                [0m  startApps[0m
+
+
+
+C:\start>
+20.06-10:41
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+cd .\Dolibarr\
+develop
+C:\start\Dolibarr>
+20.06-10:41>
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+n
+
+develop
+C:\start\Dolibarr>
+20.06-10:50>

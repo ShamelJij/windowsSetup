@@ -1,0 +1,227 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20230616133036
+Username: DESKTOP-BS5RPQ7\shami
+RunAs User: DESKTOP-BS5RPQ7\shami
+Configuration Name: 
+Machine: DESKTOP-BS5RPQ7 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 3536
+PSVersion: 5.1.19041.3031
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.3031
+BuildVersion: 10.0.19041.3031
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is c:\start\powershell\sessions\y23-m06-d16-h01-min30-sec34-PM.txt
+
+
+C:\start>
+16.06-01:30
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+cdb
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 55
+Server version: 8.0.33 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2023, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> exit
+Bye
+& : The term 'show databases;' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:22 char:7
++     & 'show databases;';
++       ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (show databases;:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+& : The term 'show databases;' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of
+the name, or if a path was included, verify that the path is correct and try again.
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:22 char:7
++     & 'show databases;';
++       ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (show databases;:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+
+C:\start>
+16.06-01:31
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+$smysql = Connect-MySQL  -User "root" -Password "123123" -Server "localhost" -Port "3306"
+Connect-MySQL : The term 'Connect-MySQL' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:11
++ $smysql = Connect-MySQL  -User "root" -Password "123123" -Server "loc ...
++           ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Connect-MySQL:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+Connect-MySQL : The term 'Connect-MySQL' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:11
++ $smysql = Connect-MySQL  -User "root" -Password "123123" -Server "loc ...
++           ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Connect-MySQL:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+
+C:\start>
+16.06-01:38
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Install-Module -Name MySQLCmdlets
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(Install-Module): "Administrator rights are required to install modules in 'C:\Program Files\WindowsPowerShell\Modules'. Log on to the computer with an account that has Administrator rights, and then try again, or install 'C:\Users\shami\Documents\WindowsPowerShell\Modules' by adding "-Scope CurrentUser" to your command. You can also try running the Windows PowerShell session with elevated rights (Run as Administrator)."
+Install-Module : Administrator rights are required to install modules in 'C:\Program Files\WindowsPowerShell\Modules'. 
+Log on to the computer with an account that has Administrator rights, and then try again, or install 
+'C:\Users\shami\Documents\WindowsPowerShell\Modules' by adding "-Scope CurrentUser" to your command. You can also try 
+running the Windows PowerShell session with elevated rights (Run as Administrator).
+At line:1 char:1
++ Install-Module -Name MySQLCmdlets
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Install-Module], ArgumentException
+    + FullyQualifiedErrorId : InstallModuleNeedsCurrentUserScopeParameterForNonAdminUser,Install-Module
+Install-Module : Administrator rights are required to install modules in 'C:\Program Files\WindowsPowerShell\Modules'. Log on to the
+computer with an account that has Administrator rights, and then try again, or install 'C:\Users\shami\Documents\WindowsPowerShell\Modules'
+by adding "-Scope CurrentUser" to your command. You can also try running the Windows PowerShell session with elevated rights (Run as
+Administrator).
+At line:1 char:1
++ Install-Module -Name MySQLCmdlets
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Install-Module], ArgumentException
+    + FullyQualifiedErrorId : InstallModuleNeedsCurrentUserScopeParameterForNonAdminUser,Install-Module
+
+
+C:\start>
+16.06-12:39
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Import-Module MySQLCmdlets
+
+C:\start>
+16.06-12:39
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+$smysql = Connect-MySQL  -User "root" -Password "123123" -Server "localhost" -Port "3306"
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+
+C:\start>
+16.06-12:40
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+$smysql = Connect-MySQL  -User "root" -Password "123123" -Server "localhost" -Port "3306"
+>> TerminatingError(Connect-MySQL): "CData MySQL Cmdlets. Could not find a valid license for using CData MySQL Cmdlets on this system.  To obtain a trial license, please visit www.cdata.com or email support@cdata.com [code: G nodeid: 7MAWKNRH]."
+Connect-MySQL : CData MySQL Cmdlets. Could not find a valid license for using CData MySQL Cmdlets on this system.  To 
+obtain a trial license, please visit www.cdata.com or email support@cdata.com [code: G nodeid: 7MAWKNRH].
+At line:1 char:11
++ $smysql = Connect-MySQL  -User "root" -Password "123123" -Server "loc ...
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Connect-MySQL], Exception
+    + FullyQualifiedErrorId : System.Exception,CData.MySQLCmdlets.Commands.MySQLConnect
+Connect-MySQL : CData MySQL Cmdlets. Could not find a valid license for using CData MySQL Cmdlets on this system.  To obtain a trial
+license, please visit www.cdata.com or email support@cdata.com [code: G nodeid: 7MAWKNRH].
+At line:1 char:11
++ $smysql = Connect-MySQL  -User "root" -Password "123123" -Server "loc ...
++           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Connect-MySQL], Exception
+    + FullyQualifiedErrorId : System.Exception,CData.MySQLCmdlets.Commands.MySQLConnect
+
+
+C:\start>
+16.06-12:40
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+install-module sqlserver
+git : fatal: not a git repository (or any of the parent directories): .git
+At C:\Users\shami\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1:48 char:19
++         $branch = git rev-parse --abbrev-ref HEAD
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(Install-Module): "Administrator rights are required to install modules in 'C:\Program Files\WindowsPowerShell\Modules'. Log on to the computer with an account that has Administrator rights, and then try again, or install 'C:\Users\shami\Documents\WindowsPowerShell\Modules' by adding "-Scope CurrentUser" to your command. You can also try running the Windows PowerShell session with elevated rights (Run as Administrator)."
+install-module : Administrator rights are required to install modules in 'C:\Program Files\WindowsPowerShell\Modules'. 
+Log on to the computer with an account that has Administrator rights, and then try again, or install 
+'C:\Users\shami\Documents\WindowsPowerShell\Modules' by adding "-Scope CurrentUser" to your command. You can also try 
+running the Windows PowerShell session with elevated rights (Run as Administrator).
+At line:1 char:1
++ install-module sqlserver
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Install-Module], ArgumentException
+    + FullyQualifiedErrorId : InstallModuleNeedsCurrentUserScopeParameterForNonAdminUser,Install-Module
+install-module : Administrator rights are required to install modules in 'C:\Program Files\WindowsPowerShell\Modules'. Log on to the
+computer with an account that has Administrator rights, and then try again, or install 'C:\Users\shami\Documents\WindowsPowerShell\Modules'
+by adding "-Scope CurrentUser" to your command. You can also try running the Windows PowerShell session with elevated rights (Run as
+Administrator).
+At line:1 char:1
++ install-module sqlserver
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Install-Module], ArgumentException
+    + FullyQualifiedErrorId : InstallModuleNeedsCurrentUserScopeParameterForNonAdminUser,Install-Module
+
+
+C:\start>
+16.06-01:05
