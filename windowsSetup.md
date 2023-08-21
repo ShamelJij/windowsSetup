@@ -1,10 +1,13 @@
+ # ExecutionPolicy.. Very Important!!!
+ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Bypass -Force;
+ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted -Force;
  # Setting up Windows
  `winget -v`
 `winget install -e --id git.git`
 `winget install Microsoft.WindowsTerminal`
-> - open Terminal as Admin 
+> - open Terminal as Admin
 > - download and install TouchCursor from:
- 
+
 https://github.com/martin-stone/touchcursor/releases/download/v1.7.1/TouchCursorSetup-1.7.1.exe
 
 > delete the existing setting file:
@@ -31,7 +34,7 @@ https://github.com/martin-stone/touchcursor/releases/download/v1.7.1/TouchCursor
 > - install node manually
 >  - clone poshell from Github and set it to $Profilefolder
 
-`git clone -b daapc https://github.com/ShamelJij/poshell.git $PROFILE` 
+`git clone -b daapc https://github.com/ShamelJij/poshell.git $PROFILE`
 > - installing powershell modules for icons and git
 > - install-module posh-git
 > - install-module terminal-Icons
@@ -51,7 +54,7 @@ https://github.com/martin-stone/touchcursor/releases/download/v1.7.1/TouchCursor
 `winget install microsoft.visualstudiocode`
 >  installing neovim
 
-`scoop install neovim gcc` 
+`scoop install neovim gcc`
 > install vim-plug on windows
 
 ```
