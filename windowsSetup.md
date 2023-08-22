@@ -6,38 +6,41 @@
 `winget install -e --id git.git`
 `winget install Microsoft.WindowsTerminal`
 > - open Terminal as Admin
+> - install Visual C++ from https://aka.ms/vs/17/release/vc_redist.x64.exe
 > - download and install TouchCursor from:
 
 https://github.com/martin-stone/touchcursor/releases/download/v1.7.1/TouchCursorSetup-1.7.1.exe
 
 > delete the existing setting file:
-
 `Get-ChildItem -Path $env:AppData\TouchCursor -Include *.* -File -Recurse | foreach { $_.Delete()}`
 
 > clone TCSettings from Github and put it in the right directory:
-
 `git clone https://github.com/ShamelJij/TCSettings.git $env:AppData\touchcursor`
+
 > create start folder.. by default it is c:\start
-
 `New-Item -Path 'c:\start' -ItemType Directory`
+
 > create new environment variable for myStart
-
 `[Environment]::SetEnvironmentVariable('myStart','c:\start', 'Machine')`
-> install scoop
 
-`iwr -useb get.scoop.sh | iex`
+> install scoop
+`iex "& {$(irm get.scoop.sh)} -RunAsAdmin`
 `scoop install curl sudo jq`
 `curl 'https://api.inkdrop.app/' | jq .`
 > create new local for Powershell Profile Folder
 
 `$profildeFolder = ($PROFILE -replace ".{33}$")`
+
 > - install node manually
+> - install python 3.11 manually from MSStore
+
 >  - clone poshell from Github and set it to $Profilefolder
 
 `git clone -b daapc https://github.com/ShamelJij/poshell.git $PROFILE`
+
 > - installing powershell modules for icons and git
-> - install-module posh-git
-> - install-module terminal-Icons
+`install-module posh-git`
+`install-module terminal-Icons`
 > - download Nerd-fonts CascadiaCode
 
 `Invoke-WebRequest -Uri "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/CascadiaCode.zip" -Outfile $env:userprofile\Downloads\nerdfonts.zip`
