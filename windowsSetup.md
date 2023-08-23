@@ -1,7 +1,7 @@
  # ExecutionPolicy.. Very Important!!!
- Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Bypass -Force;
- Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted -Force;
- Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Bypass -Force;\
+ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted -Force;\
+ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser\
 
  # Setting up Windows
 
