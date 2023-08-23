@@ -1,0 +1,34 @@
+New-Item -Path 'c:\start' -ItemType Directory
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Bypass -Force;
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted -Force;
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+[Environment]::SetEnvironmentVariable('myStart','c:\start', 'Machine')
+iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
+scoop install curl sudo
+curl -v
+python --version
+git clone -b daapc https://github.com/ShamelJij/poshell.git -outfile $PROFILE
+$profileFolder = ($PROFILE -replace ".{33}$")
+$profileFolder
+git clone -b daapc https://github.com/ShamelJij/poshell.git -outfile $PROFILeFolder
+install-module posh-git
+install-module terminal-icons
+Invoke-WebRequest -Uri "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/CascadiaCode.zip" -Outfile $env:userprofile\Downloads\nerdfonts.zip
+Expand-Archive -LiteralPath $env:userprofile\Downloads\nerdfonts.zip -DestinationPath $env:userprofile\Downloads\nerdfonts
+winget install microsoft.visualstudiocode
+scoop install neovim gcc
+iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |` ni "$(@($env:XDG_DATA_HOME, $env:LOCALAPPDATA)[$null -eq $env:XDG_DATA_HOME])/nvim-data/site/autoload/plug.vim" -Force
+Install-Module -Name psreadline -Force
+node -v
+npm install -g pyright vscode-langservers-extracted typescript typescript-language-server
+git clone https://github.com/ShamelJij/neovimLuaConfig.git $env:localappdata:/nvim
+new-item -path $env:localappdata/nvim -ItemType Directory
+git clone https://github.com/ShamelJij/neovimLuaConfig.git $env:localappdata/nvim
+explorer $env:localappdata\nvim
+git clone https://github.com/ShamelJij/imports.git
+npm install -g neovim
+git config --global user.email "shamel.jij@gmail.com"
+git config --global user.name "shameljij"
+pushit
+git rm --cached packer_compiled.lua
+git rm --cached ./plugin/packer_compiled.lua
