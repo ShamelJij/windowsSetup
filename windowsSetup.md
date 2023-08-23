@@ -1,10 +1,14 @@
  # ExecutionPolicy.. Very Important!!!
  Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Bypass -Force;
  Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted -Force;
+ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
  # Setting up Windows
- `winget -v`
-`winget install -e --id git.git`
-`winget install Microsoft.WindowsTerminal`
+
+> - if there's no winget then install winget from MSStore
+>   `winget -v`
+>   `winget install git.git`
+>   `winget install Microsoft.WindowsTerminal`
 > - open Terminal as Admin
 > - install Visual C++ from https://aka.ms/vs/17/release/vc_redist.x64.exe
 > - download and install TouchCursor from:
@@ -12,63 +16,71 @@
 https://github.com/martin-stone/touchcursor/releases/download/v1.7.1/TouchCursorSetup-1.7.1.exe
 
 > delete the existing setting file:
-`Get-ChildItem -Path $env:AppData\TouchCursor -Include *.* -File -Recurse | foreach { $_.Delete()}`
+> `Get-ChildItem -Path $env:AppData\TouchCursor -Include *.* -File -Recurse | foreach { $_.Delete()}`
 
 > clone TCSettings from Github and put it in the right directory:
-`git clone https://github.com/ShamelJij/TCSettings.git $env:AppData\touchcursor`
+> `git clone https://github.com/ShamelJij/TCSettings.git $env:AppData\touchcursor`
 
 > create start folder.. by default it is c:\start
-`New-Item -Path 'c:\start' -ItemType Directory`
+> `New-Item -Path 'c:\start' -ItemType Directory`
+
+> create nvim folder.. by default it is $env:AppData\nvim
+> `New-Item -Path '$env:AppData\nvim' -ItemType Directory`
 
 > create new environment variable for myStart
-`[Environment]::SetEnvironmentVariable('myStart','c:\start', 'Machine')`
+> `[Environment]::SetEnvironmentVariable('myStart','c:\start', 'Machine')`
 
 > install scoop
-`iex "& {$(irm get.scoop.sh)} -RunAsAdmin`
-`scoop install curl sudo jq`
-`curl 'https://api.inkdrop.app/' | jq .`
+> `iex "& {$(irm get.scoop.sh)} -RunAsAdmin`
+> `scoop install curl sudo`
+
 > create new local for Powershell Profile Folder
 
-`$profildeFolder = ($PROFILE -replace ".{33}$")`
+> `$profileFolder = ($PROFILE -replace ".{33}$")`
 
 > - install node manually
 > - install python 3.11 manually from MSStore
 
->  - clone poshell from Github and set it to $Profilefolder
+> - clone poshell from Github and set it to $Profilefolder
 
-`git clone -b daapc https://github.com/ShamelJij/poshell.git $PROFILE`
+> `git clone -b daapc https://github.com/ShamelJij/poshell.git . -outfile $Profilefolder`
 
 > - installing powershell modules for icons and git
-`install-module posh-git`
-`install-module terminal-Icons`
+> `install-module posh-git`
+> `install-module terminal-Icons`
 > - download Nerd-fonts CascadiaCode
 
-`Invoke-WebRequest -Uri "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/CascadiaCode.zip" -Outfile $env:userprofile\Downloads\nerdfonts.zip`
-> extract Nerd-fonts
+> `Invoke-WebRequest -Uri "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/CascadiaCode.zip" -Outfile $env:userprofile\Downloads\nerdfonts.zip`
 
-`Expand-Archive -LiteralPath $env:userprofile\Downloads\nerdfonts.zip -DestinationPath $env:userprofile\Downloads\nerdfonts`
+> - extract Nerd-fonts
+
+> `Expand-Archive -LiteralPath $env:userprofile\Downloads\nerdfonts.zip -DestinationPath $env:userprofile\Downloads\nerdfonts`
+
 > - install the fonts manually by activating all fonts in the folder and right click then install
 > - remove existing terminal profile
 > - install my terminal profile
 
-`git clone https://github.com/ShamelJij/terminalSettings.git'$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState`
-> install VSCode
+> `git clone https://github.com/ShamelJij/terminalSettings.git'$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState`
 
-`winget install microsoft.visualstudiocode`
->  installing neovim
+> - install VSCode
 
-`scoop install neovim gcc`
-> install vim-plug on windows
+> `winget install microsoft.visualstudiocode`
 
-```
-iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |` ni "$(@($env:XDG_DATA_HOME, $env:LOCALAPPDATA)[$null -eq $env:XDG_DATA_HOME])/nvim-data/site/autoload/plug.vim" -Force
-```
-`Install-Module -Name psreadline -Force`
-`Install-Module -Name psfzf`
-`set-psreadlineoption -PredictionViewStyle ListView`
-> Installing treeSitter
+> - installing neovim
 
-`npm install -g pyright vscode-langservers-extracted typescript typescript-language-server`
+> `scoop install neovim gcc`
+> `npm install -g neovim`
+
+> - install vim-plug on windows
+
+> ```
+> iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |` ni "$(@($env:XDG_DATA_HOME, $env:LOCALAPPDATA)[$null -eq $env:XDG_DATA_HOME])/nvim-data/site/autoload/plug.vim" -Force
+> ```
+> `Install-Module -Name psreadline -Force`
+
+> - Installing treeSitter
+
+> `npm install -g pyright vscode-langservers-extracted typescript typescript-language-server`
 
 
 
