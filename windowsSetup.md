@@ -1,17 +1,16 @@
  # ExecutionPolicy.. Very Important!!!
  Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Bypass -Force;\
  Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted -Force;\
- Set-ExecutionPolicy RemoteSigned -Scope CurrentUser;\
+ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser;
 
  # Setting up Windows
-
-> - if there's no winget then install winget from MSStore
->   `winget -v`\
->   `winget install git.git`\
->   `winget install Microsoft.WindowsTerminal`\
-> - open Terminal as Admin
-> - install Visual C++ from https://aka.ms/vs/17/release/vc_redist.x64.exe
-> - download and install TouchCursor from:
+if there's no winget then install winget from MSStore
+   `winget -v`\
+   `winget install git.git`\
+   `winget install Microsoft.WindowsTerminal`
+ open Terminal as Admin\
+ install Visual C++ from https://aka.ms/vs/17/release/vc_redist.x64.exe\
+ download and install TouchCursor from:
 
 https://github.com/martin-stone/touchcursor/releases/download/v1.7.1/TouchCursorSetup-1.7.1.exe
 
