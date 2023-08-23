@@ -10,9 +10,11 @@ if there's no winget then install winget from MSStore
    `winget install Microsoft.WindowsTerminal`\
 open Terminal as Admin\
 install Visual C++ from:
-https://aka.ms/vs/17/release/vc_redist.x64.exe\
+https://aka.ms/vs/17/release/vc_redist.x64.exe
+
 download and install TouchCursor from:
-https://github.com/martin-stone/touchcursor/releases/download/v1.7.1/TouchCursorSetup-1.7.1.exe\
+https://github.com/martin-stone/touchcursor/releases/download/v1.7.1/TouchCursorSetup-1.7.1.exe
+
 delete the existing setting file:
 `Get-ChildItem -Path $env:AppData\TouchCursor -Include *.* -File -Recurse | foreach { $_.Delete()}`\
 clone TCSettings from Github and put it in the right directory:
