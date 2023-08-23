@@ -7,21 +7,18 @@
 if there's no winget then install winget from MSStore
    `winget -v`\
    `winget install git.git`\
-   `winget install Microsoft.WindowsTerminal`
- open Terminal as Admin\
- install Visual C++ from https://aka.ms/vs/17/release/vc_redist.x64.exe\
- download and install TouchCursor from:
-
+   `winget install Microsoft.WindowsTerminal`\
+open Terminal as Admin\
+install Visual C++ from:
+https://aka.ms/vs/17/release/vc_redist.x64.exe\
+download and install TouchCursor from:
 https://github.com/martin-stone/touchcursor/releases/download/v1.7.1/TouchCursorSetup-1.7.1.exe
-
-> delete the existing setting file:
-> `Get-ChildItem -Path $env:AppData\TouchCursor -Include *.* -File -Recurse | foreach { $_.Delete()}`
-
-> clone TCSettings from Github and put it in the right directory:
-> `git clone https://github.com/ShamelJij/TCSettings.git $env:AppData\touchcursor`
-
-> create start folder.. by default it is c:\start
-> `New-Item -Path 'c:\start' -ItemType Directory`
+delete the existing setting file:
+`Get-ChildItem -Path $env:AppData\TouchCursor -Include *.* -File -Recurse | foreach { $_.Delete()}`
+clone TCSettings from Github and put it in the right directory:
+`git clone https://github.com/ShamelJij/TCSettings.git $env:AppData\touchcursor`
+create start folder.. by default it is c:\start
+`New-Item -Path 'c:\start' -ItemType Directory`
 
 > create nvim folder.. by default it is $env:AppData\nvim
 > `New-Item -Path '$env:AppData\nvim' -ItemType Directory`
